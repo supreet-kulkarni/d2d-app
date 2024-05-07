@@ -45,7 +45,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>d2d-app</finalName>
+		<finalName>d2d-api</finalName>
 	</build>
 
 </project>
