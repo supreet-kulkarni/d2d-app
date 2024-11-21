@@ -1,7 +1,7 @@
 pipeline {
     agent any
      tools{
-         maven 'maven3.9.6'
+         maven 'maven3.9.9'
      }
     stages {
         stage('Maven build') {
@@ -9,10 +9,6 @@ pipeline {
                 sh 'mvn package'
             }
         }
-        stage('Build Docker Image') {
-            steps {
-                sh 'docker --version'
-            }
+       
         }
     }
-}
